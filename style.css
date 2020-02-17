@@ -1,0 +1,166 @@
+.header {
+
+    background-image: url("/img/header-img.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    position: absolute;
+    top: 0;
+}
+
+.jumbotron-fluid h1{
+    color: rgb(57, 199, 255);
+    font-size: 55px;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+.jumbotron-fluid p {
+   color: rgba(255, 57, 245)!important;
+   font-family: 'Nunito Sans', sans-serif !important;
+}
+.mainTitle {
+    color: rgb(57, 199, 255);
+}
+
+.navbar-brand {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px !important;
+}
+
+.header h1 {
+    font-size: 60px;
+
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: rgba(255, 57, 245, 0.2);
+    position: absolute !important;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+
+}
+
+.navbar a {
+    color: white !important;
+
+}
+
+.btn-first {
+    background-color: rgba(255, 57, 245, 0.5) !important;
+    color: white !important;
+}
+
+.btn-second {
+    background-color: #29bfec !important;
+    color: white !important;
+}
+
+.btn-first:hover {
+    background-color: rgba(255, 57, 245, 0.7) !important;
+
+}
+
+.btn-second:hover {
+    background-color: #00d9ff !important;
+
+}
+
+.navbar a:hover {
+    color: rgba(255, 57, 245, 0.7) !important;
+
+}
+
+.searchForm {
+    width: 60% !important;
+    margin-right: 10px;
+}
+
+.header-btn {
+    background-color: rgba(255, 57, 245, 0.5) !important;
+}
+
+.header-btn:hover {
+    background-color: rgba(255, 57, 245, 0.7) !important;
+
+}
+
+.footer {
+    padding: 10px;
+   
+    
+    background: #29bfec;
+    
+    
+
+}
+.socialMedia a{
+    padding: 5px;
+    font-size: 19px;
+  
+}
+.socialMedia a:hover{
+   
+    color:rgba(255, 57, 245)!important;
+  
+}
+
+.footer a{
+    color: white!important;
+   
+
+}
+
+.options img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    -webkit-box-shadow: 7px 7px 12px -5px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 7px 7px 12px -5px rgba(0, 0, 0, 0.44);
+    box-shadow: 7px 7px 12px -5px rgba(0, 0, 0, 0.44);
+
+
+}
+
+.shop h1 {
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #29bfec;
+}
+.shop p {
+    font-family: 'Nunito Sans', sans-serif !important;
+    
+    color: rgba(255, 57, 245);
+}
+
+.options {
+    justify-content: center !important;
+}
+
+.options h2 {
+    text-shadow: 2px 2px #29bfec;
+}
+.options h1 {
+    color: #29bfec;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 45px;
+
+    }
+
+    .options {
+        justify-content: start !important;
+
+    }
+
+  
+
+}
